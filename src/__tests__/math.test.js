@@ -1,5 +1,5 @@
 import { it, expect } from "vitest";
-import { add } from "./math";
+import { add } from "../utils/math";
 
 // ? Test for array
 
