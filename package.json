@@ -1,15 +1,16 @@
 {
-	"name": "testing-using-vitest",
-	"version": "1.0.0",
-	"main": "index.js",
-	"license": "MIT",
-	"scripts": {
-		"test": "vitest --reporter verbose"
-	},
-	"devDependencies": {
-		"vitest": "^0.34.6"
-	},
-	"dependencies": {
-		"crypto-js": "^4.2.0"
-	}
+  "name": "testing-using-vitest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest --reporter verbose"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
 }
